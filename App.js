@@ -6,9 +6,6 @@ import NotesStack from "./screens/NotesStack";
 import AddScreen from "./screens/AddScreen";
 import { TextInput } from "react-native";
 
-import * as SQLite from "expo-sqlite";
-const db = SQLite.openDatabase("notes.db");
-
 const Stack = createStackNavigator();
 
 export default function App() {

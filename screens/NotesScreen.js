@@ -63,6 +63,8 @@ export default function NotesScreen({ navigation, route }) {
   }, [route.params?.text]);
  
 
+
+  
  function addNote() {
    navigation.navigate("Add Note");
  }

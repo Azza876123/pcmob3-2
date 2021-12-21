@@ -7,7 +7,7 @@ export default function AddScreen({ route, navigation }) {
    
     return (
       <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-        <Text style={styles.label}>Add your todo</Text>
+        <Text style={styles.label}>Add your to do</Text>
         <TextInput
           style={styles.textInput}
           value={text}
